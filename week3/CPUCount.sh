@@ -7,4 +7,6 @@
 #: Description : counts the numbers of processors 
 #: Options :
 
-grep processor/proc/cpuinfo | wc -l
+printf "the number of avaibale processors is: " 
+
+grep processor /proc/cpuinfo | wc -l
